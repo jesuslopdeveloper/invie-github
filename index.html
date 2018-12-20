@@ -9,7 +9,7 @@
     <style media="screen">
         body {
             margin: 0;
-            border: 10px solid #192b36; 
+            border: 10px solid #192b36;
         }
 
         img {
@@ -21,11 +21,20 @@
             display: none;
         }
 
+        div#web {
+            display: none;
+        }
+
         @media screen and (max-width: 768px) {
             img#responsive {
                 display: block;
             }
+
             div#web {
+                display: none;
+            }
+
+            img#nuevaVersion {
                 display: none;
             }
         }
@@ -33,6 +42,7 @@
 </head>
 
 <body>
+
     <img src="invie-responsive.webp" alt="" id="responsive" />
     <div id="web">
         <img src="header.jpg" alt="" />
@@ -41,6 +51,7 @@
         <img src="clasica.webp" alt="" />
         <img src="footer.jpg" alt="" />
     </div>
+    <img src="nueva-version.webp" alt="" id="nuevaVersion" />
 </body>
 
 </html>
